@@ -1,6 +1,7 @@
 name: misspell
 
 on:
+  push:
   schedule:
     - cron: '1 * * * *'
     # - cron: '0 22 * * *'
