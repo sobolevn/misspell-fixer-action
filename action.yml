@@ -14,7 +14,7 @@ inputs:
   options:
     description: 'Any options for misspell-fixes tool'
     required: false
-    default: '-rsv .'
+    default: '-rsvn .'
 outputs:
   output:
     description: 'The output of misspell-fixer run'
