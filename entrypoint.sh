@@ -22,5 +22,3 @@ if [ "$status" -ge 100 ]; then
   echo "Process failed with the status code: $status"
   exit "$status"
 fi
-
-# test: lower then
