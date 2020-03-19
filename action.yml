@@ -1,0 +1,26 @@
+# This is a definition file for a Github Action.
+# See: https://help.github.com/en/articles/creating-a-docker-container-action
+
+# We also define metadata here:
+# See: https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+name: 'misspell-fixer-action'
+description: 'Runs misspell-fixer as a Github Action'
+branding:
+  icon: 'bookmark'
+  color: 'green'
+
+inputs:
+  options:
+    description: 'Any options for misspell-fixes tool'
+    required: false
+    default: '.'
+outputs:
+  output:
+    description: 'The output of misspell-fixer run'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.options }}
