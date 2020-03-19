@@ -16,7 +16,7 @@ echo '================================='
 echo
 
 # Fail the build in case status code is not 0:
-if [ "$status" != 0 ]; then
+if [ "$status" -ge 100 ]; then
   echo 'Failing with output:'
   echo "$output"
   echo "Process failed with the status code: $status"
