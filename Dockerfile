@@ -1,7 +1,7 @@
 # ========================================
 # =               Warning!               =
 # ========================================
-# This is Github Action docker-based image.
+# This is GitHub Action docker-based image.
 # It is not intended for local development!
 #
 # The original image is available on Dockerhub,

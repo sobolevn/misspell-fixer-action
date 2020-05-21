@@ -9,7 +9,7 @@ echo
 output=$(/misspell-fixer/misspell-fixer $INPUT_OPTIONS)
 status="$?"
 
-# Sets the output variable for Github Action API:
+# Sets the output variable for GitHub Action API:
 # See: https://help.github.com/en/articles/development-tools-for-github-action
 echo "::set-output name=output::$output"
 echo '================================='
