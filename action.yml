@@ -1,11 +1,11 @@
-# This is a definition file for a Github Action.
+# This is a definition file for a GitHub Action.
 # See: https://help.github.com/en/articles/creating-a-docker-container-action
 
 # We also define metadata here:
 # See: https://help.github.com/en/articles/metadata-syntax-for-github-actions
 
 name: 'misspell-fixer-action'
-description: 'Runs misspell-fixer as a Github Action'
+description: 'Runs misspell-fixer as a GitHub Action'
 branding:
   icon: 'bookmark'
   color: 'green'

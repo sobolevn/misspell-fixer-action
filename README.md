@@ -9,7 +9,7 @@ Based on awesome [misspell-fixer](https://github.com/vlajos/misspell-fixer) tool
 
 ## Usage
 
-We had a typo in our `entrypoint.sh` file to show how this Github Action works.
+We had a typo in our `entrypoint.sh` file to show how this GitHub Action works.
 By using a pipeline of three actions we are able to receive [PRs like this one](https://github.com/sobolevn/misspell-fixer-action/pull/3).
 
 Here's how our configuration looks like:
@@ -29,7 +29,7 @@ Here's how it works:
 3. Then [`peter-evans/create-pull-request`](https://github.com/peter-evans/create-pull-request) creates a PR with the fixes created earlier
 4. Done!
 
-See logs of our [own Github Actions](https://github.com/sobolevn/misspell-fixer-action/runs/520513568?check_suite_focus=true) with the fixed typo.
+See logs of our [own GitHub Actions](https://github.com/sobolevn/misspell-fixer-action/runs/520513568?check_suite_focus=true) with the fixed typo.
 
 And here's how our [workflow looks like](https://github.com/sobolevn/misspell-fixer-action/blob/master/.github/workflows/misspell.yml).
 
