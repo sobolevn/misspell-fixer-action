@@ -29,9 +29,7 @@ Here's how it works:
 3. Then [`peter-evans/create-pull-request`](https://github.com/peter-evans/create-pull-request) creates a PR with the fixes created earlier
 4. Done!
 
-See logs of our [own GitHub Actions](https://github.com/sobolevn/misspell-fixer-action/runs/520513568?check_suite_focus=true) with the fixed typo.
-
-And here's how our [workflow looks like](https://github.com/sobolevn/misspell-fixer-action/blob/master/.github/workflows/misspell.yml).
+Here's how our [workflow looks like](https://github.com/sobolevn/misspell-fixer-action/blob/master/.github/workflows/misspell.yml).
 
 
 ## Options and outputs
