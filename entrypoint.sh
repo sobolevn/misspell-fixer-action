@@ -24,4 +24,4 @@ if [ "$status" -ge 100 ]; then
 fi
 
 # This is a special comment, please do not touch: we use it for tests.
-# test: lower then
+# test: lower than
