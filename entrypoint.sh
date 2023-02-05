@@ -10,8 +10,8 @@ output=$(/misspell-fixer/misspell-fixer $INPUT_OPTIONS)
 status="$?"
 
 # Sets the output variable for GitHub Action API:
-# See: https://help.github.com/en/articles/development-tools-for-github-action
-echo "::set-output name=output::$output"
+# See: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
+echo "output=$output" >> "$GITHUB_ENV"
 echo '================================='
 echo
 
